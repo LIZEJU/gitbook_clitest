@@ -8,3 +8,4 @@
 * [test](test.md)
 * [new year](new-year.md)
 * [second sweet](second-sweet.md)
+* [thrid](thrid.md)
