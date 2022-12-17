@@ -9,7 +9,7 @@
 
 ## 注意
 
-* gitbook创建项目的时候，第一个文件必须是[README](https://github.com/LIZEJU/k8s2#readme)
+* gitbook创建项目的时候，对应的github仓库需要有readme.md文件。初始化
 
 
 
