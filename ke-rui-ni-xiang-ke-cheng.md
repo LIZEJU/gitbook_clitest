@@ -16,9 +16,7 @@ https://www.52pojie.cn/forum-4-1.html
 
 吾爱优质资源
 
-lzj1234
 
-987654321qwe
 
 c++和反汇编
 
