@@ -3,7 +3,7 @@
 ## github personal access token 失效
 
 ```
-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
+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
 ```
 
 <figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption><p>token失效</p></figcaption></figure>
