@@ -8,7 +8,7 @@ github_pat_11AGJUN4A0xnzxtmqHJSG8_u96ZoWlMmkI9ZvRbcBj20mYzdJQ2Trm5dIHo2wlFeGsEKG
 
 <figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption><p>token失效</p></figcaption></figure>
 
-<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption><p>重新激活token</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (2) (1).png" alt=""><figcaption><p>重新激活token</p></figcaption></figure>
 
 ```
 关于 personal access token
@@ -41,4 +41,4 @@ github access token 过期
 
 过期时间最好设置为7天，我设置的很长的过期时间，不知道什么情况，一会就过期了
 
-<figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>

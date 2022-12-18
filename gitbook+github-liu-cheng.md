@@ -13,9 +13,9 @@
 
 ## 文档
 
-``[`gitbook文档`](https://docs.gitbook.com/tour/editor/rich-text)``
+[gitbook文档](https://docs.gitbook.com/tour/editor/rich-text)
 
-``[`markdown文档`](https://markdown.com.cn/basic-syntax/links.html)``
+[markdown文档](https://markdown.com.cn/basic-syntax/links.html)
 
 ## gitbook问题
 
