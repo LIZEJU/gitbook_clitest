@@ -8,3 +8,4 @@
 * [gitbook-cli上传静态页面](page-1.md)
 * [gitbook+github流程](gitbook+github-liu-cheng.md)
 * [github pages问题](github-pages-wen-ti.md)
+* [gitbook发布的流程整理第一版](gitbook-fa-bu-de-liu-cheng-zheng-li-di-yi-ban.md)
