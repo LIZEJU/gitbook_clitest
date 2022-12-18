@@ -27,3 +27,22 @@ https://lizeju.github.io/gitbook_clitest/ 这个正确的链接
 https://lizeju.github.io/gitbook\_clitest/
 需要到github仓库里面修改
 ```
+
+## githbook插入视频
+
+```
+https://www.cnblogs.com/Tanwheey/p/14845551.html
+
+book.json 
+{
+    "plugins": ['video-player']
+}
+gitbook install 
+
+{% raw %}
+{% videoplayerscripts %}{% endvideoplayerscripts %}
+
+{% videoplayer id="docker-myvideo" width="640" height="480" posterExt="png" %}https://s3.amazonaws.com/gitbooks/myvideo{% endvideoplayer %}
+{% endraw %}
+
+```
