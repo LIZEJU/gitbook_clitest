@@ -7,6 +7,6 @@
 * [gitbook-cli上传静态页面](page-1.md)
 * [gitbook+github流程](gitbook+github-liu-cheng.md)
 * [github pages问题](github-pages-wen-ti.md)
-* [second sweet](second-sweet.md)
+* [README](readme-1.md)
 * [thrid](thrid.md)
 * [forth](forth.md)

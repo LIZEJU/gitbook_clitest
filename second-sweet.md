@@ -1,3 +1,0 @@
-# second sweet
-
-hello world
