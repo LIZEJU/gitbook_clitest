@@ -6,7 +6,7 @@
 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
 ```
 
-<figure><img src=".gitbook/assets/image (1) (1).png" alt=""><figcaption><p>token失效</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>token失效</p></figcaption></figure>
 
 <figure><img src=".gitbook/assets/image (2) (1) (1).png" alt=""><figcaption><p>重新激活token</p></figcaption></figure>
 

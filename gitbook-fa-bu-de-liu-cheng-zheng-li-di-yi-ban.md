@@ -12,13 +12,9 @@
 
 ![](<.gitbook/assets/image (10).png>)
 
-
-
 ## github创建仓库
 
 ![](<.gitbook/assets/image (6).png>)
-
-
 
 ## gitbook同步数据到github
 
@@ -119,13 +115,14 @@ gitest/c# git branch 当前所在的分支
 
 生成静态页面，且上传静态页面到对应的分支
 
-<pre><code>#!/bin/bash
+```
+#!/bin/bash
 
 export ALL_PROXY=socks5://127.0.0.1:1080
 export http_proxy=http://127.0.0.1:1087
 source /etc/profile
-<strong>
-</strong>git config credential.helper store # 只有第一次上传需要密码，之后不需要
+
+git config credential.helper store # 只有第一次上传需要密码，之后不需要
 path1="home/l/桌面/markdown1/gitest/c"
 
 cd $path1
@@ -149,7 +146,7 @@ git reset --hard origin/main
 
 git pull origin pages
 
-cat >.gitignore&#x3C;&#x3C;EOF
+cat >.gitignore<<EOF
 *.md
 *~
 _book
@@ -163,7 +160,7 @@ git add .
 git commit -m "1"
 git push -u --force  origin pages
 
-</code></pre>
+```
 
 ![](<.gitbook/assets/image (11).png>)
 
@@ -183,4 +180,12 @@ git push -u --force  origin pages
 
 访问地址：[https://lizeju.github.io/c/](https://lizeju.github.io/c/)
 
+![](<.gitbook/assets/image (1) (1).png>)
+
+## test
+
 ![](<.gitbook/assets/image (1).png>)
+
+
+
+![](<.gitbook/assets/image (3).png>)
