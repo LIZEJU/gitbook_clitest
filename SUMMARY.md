@@ -6,7 +6,7 @@
 * [git](1123.md)
 * [gitbook-cli上传静态页面](page-1.md)
 * [gitbook+github流程](gitbook+github-liu-cheng.md)
-* [new year](new-year.md)
+* [other](other.md)
 * [second sweet](second-sweet.md)
 * [thrid](thrid.md)
 * [forth](forth.md)
