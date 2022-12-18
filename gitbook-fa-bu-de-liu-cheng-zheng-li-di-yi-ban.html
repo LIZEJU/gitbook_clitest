@@ -1,0 +1,485 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>gitbook发布的流程整理第一版 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="zhong-guo.html" />
+    
+    
+    <link rel="prev" href="github-pages-wen-ti.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    README
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="markdown-du-shu-bi-ji.html">
+            
+                <a href="markdown-du-shu-bi-ji.html">
+            
+                    
+                    markdown读书笔记
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="readme-1.html">
+            
+                <a href="readme-1.html">
+            
+                    
+                    hexo +github pages搭建个人博客
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="ke-rui-ni-xiang-ke-cheng.html">
+            
+                <a href="ke-rui-ni-xiang-ke-cheng.html">
+            
+                    
+                    科锐逆向课程
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="1123.html">
+            
+                <a href="1123.html">
+            
+                    
+                    git
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="page-1.html">
+            
+                <a href="page-1.html">
+            
+                    
+                    gitbook-cli上传静态页面
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="gitbook+github-liu-cheng.html">
+            
+                <a href="gitbook+github-liu-cheng.html">
+            
+                    
+                    gitbook+github流程
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="github-pages-wen-ti.html">
+            
+                <a href="github-pages-wen-ti.html">
+            
+                    
+                    github pages问题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.9" data-path="gitbook-fa-bu-de-liu-cheng-zheng-li-di-yi-ban.html">
+            
+                <a href="gitbook-fa-bu-de-liu-cheng-zheng-li-di-yi-ban.html">
+            
+                    
+                    gitbook发布的流程整理第一版
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="zhong-guo.html">
+            
+                <a href="zhong-guo.html">
+            
+                    
+                    中国
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >gitbook发布的流程整理第一版</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="gitbook&#x53D1;&#x5E03;&#x7684;&#x6D41;&#x7A0B;&#x6574;&#x7406;&#x7B2C;&#x4E00;&#x7248;">gitbook&#x53D1;&#x5E03;&#x7684;&#x6D41;&#x7A0B;&#x6574;&#x7406;&#x7B2C;&#x4E00;&#x7248;</h1>
+<h2 id="gitbook&#x521B;&#x5EFA;&#x4E00;&#x4E2A;&#x65B0;&#x7684;&#x4ED3;&#x5E93;&#x6587;&#x6863;">gitbook&#x521B;&#x5EFA;&#x4E00;&#x4E2A;&#x65B0;&#x7684;&#x4ED3;&#x5E93;&#x6587;&#x6863;</h2>
+<p><img src=".gitbook/assets/image (13" alt="">.png&gt;)</p>
+<p>&#x8BBE;&#x7F6E;&#x9879;&#x76EE;&#x540D;&#x79F0;</p>
+<p>&#x521B;&#x5EFA;README&#x6587;&#x4EF6;</p>
+<p>&#x521B;&#x5EFA;other&#x6587;&#x4EF6;</p>
+<p><img src=".gitbook/assets/image (16" alt="">.png&gt;)</p>
+<h2 id="github&#x521B;&#x5EFA;&#x4ED3;&#x5E93;">github&#x521B;&#x5EFA;&#x4ED3;&#x5E93;</h2>
+<p><img src=".gitbook/assets/image (15" alt="">.png&gt;)</p>
+<h2 id="gitbook&#x540C;&#x6B65;&#x6570;&#x636E;&#x5230;github">gitbook&#x540C;&#x6B65;&#x6570;&#x636E;&#x5230;github</h2>
+<p><img src=".gitbook/assets/image (10" alt="">.png&gt;)</p>
+<p><img src=".gitbook/assets/image.png" alt=""></p>
+<p><img src=".gitbook/assets/image (14" alt="">.png&gt;)</p>
+<p><img src=".gitbook/assets/image (17" alt="">.png&gt;)</p>
+<p><img src=".gitbook/assets/image (2" alt="">.png&gt;)</p>
+<h2 id="&#x751F;&#x6210;&#x9759;&#x6001;&#x9875;&#x9762;">&#x751F;&#x6210;&#x9759;&#x6001;&#x9875;&#x9762;</h2>
+<p>&#x73AF;&#x5883;&#x51C6;&#x5907;</p>
+<ul>
+<li>nodejs&#x73AF;&#x5883;&#xFF0C;git&#x73AF;&#x5883;</li>
+</ul>
+<pre><code>sudo apt-get install nodejs
+sudo apt-get install npm
+apt-get install libcurl4-gnutls-dev libexpat1-dev gettext \
+  libz-dev libssl-dev -y
+apt-get install git -y
+nodejs&#x5347;&#x7EA7;&#x5230;&#x6700;&#x65B0;&#x7A33;&#x5B9A;&#x7248;&#x672C;
+npm install -g n
+n stable
+installing : node-v18.12.1
+       mkdir : /usr/local/n/versions/node/18.12.1
+       fetch : https://nodejs.org/dist/v18.12.1/node-v18.12.1-linux-x64.tar.xz
+     copying : node/18.12.1
+   installed : v18.12.1 (with npm 8.19.2)
+
+vim /etc/profile
+export PATH=/usr/local/n/versions/node/18.12.1/bin/:$PATH
+</code></pre><ul>
+<li>npm&#x5B89;&#x88C5;gitbook-cli&#x5305;</li>
+</ul>
+<pre><code>npm install gitbook-cli -g
+</code></pre><ul>
+<li>v2ray &#x79D1;&#x5B66;&#x4E0A;&#x7F51;&#x5DE5;&#x5177;&#x7684;&#x5B89;&#x88C5;&#xFF0C;&#x5B9E;&#x73B0;&#x7EC8;&#x7AEF;&#x53EF;&#x4EE5;&#x8BBF;&#x95EE;&#x5916;&#x7F51;</li>
+</ul>
+<pre><code>wget https://github.com/v2fly/v2ray-core/releases/download/v4.31.0/v2ray-linux-64.zip
+&#x4FEE;&#x6539;&#x914D;&#x7F6E;&#x6587;&#x4EF6;
+macbook &#x8F6F;&#x4EF6;
+https://github.com/yanue/V2rayU/releases
+</code></pre><ul>
+<li>&#x89E3;&#x51B3;gitbook&#x5305;&#x7684;&#x95EE;&#x9898;</li>
+</ul>
+<pre><code>/usr/local/n/versions/node/18.12.1/lib/node_modules/gitbook-cli/node_modules/_npm@5.1.0@npm/node_modules/graceful-fs/polyfills.js:287
+      if (cb) cb.apply(this, arguments)
+                 ^
+
+TypeError: cb.apply is not a function
+
+&#x89E3;&#x51B3;&#xFF1A;
+vim /usr/local/n/versions/node/18.12.1/lib/node_modules/gitbook-cli/node_modules/_npm@5.1.0@npm/node_modules/graceful-fs/polyfills.js
+
+&#x6CE8;&#x91CA;
+
+// fs.stat = statFix(fs.stat)
+// fs.fstat = statFix(fs.fstat)
+// fs.lstat = statFix(fs.lstat)
+</code></pre><p>&#x5728;&#x672C;&#x5730;&#x5C06;github&#x4ED3;&#x5E93;&#x4EE3;&#x7801;clone&#x4E0B;&#x6765;</p>
+<pre><code>git clone https://github.com/LIZEJU/c.git
+</code></pre>
+
+<p>&#x672C;&#x5730;&#x521B;&#x5EFA;&#x5206;&#x652F;</p>
+<pre><code>gitest# cd c
+gitest/c# ls
+di-yi.md  README.md  SUMMARY.md
+
+gitest/c# git checkout -b pages &#x521B;&#x5EFA;&#x5206;&#x652F;
+&#x5207;&#x6362;&#x5230;&#x4E00;&#x4E2A;&#x65B0;&#x5206;&#x652F; &apos;pages&apos;
+
+gitest/c# git branch &#x5F53;&#x524D;&#x6240;&#x5728;&#x7684;&#x5206;&#x652F;
+  main
+* pages
+
+&#x4E3B;&#x5206;&#x652F; main
+&#x9759;&#x6001;&#x9875;&#x9762;&#x5206;&#x652F; pages
+</code></pre><p>&#x751F;&#x6210;&#x9759;&#x6001;&#x9875;&#x9762;&#xFF0C;&#x4E14;&#x4E0A;&#x4F20;&#x9759;&#x6001;&#x9875;&#x9762;&#x5230;&#x5BF9;&#x5E94;&#x7684;&#x5206;&#x652F;</p>
+<pre><code>#!/bin/bash
+
+export ALL_PROXY=socks5://127.0.0.1:1080
+export http_proxy=http://127.0.0.1:1087
+source /etc/profile
+
+git config credential.helper store # &#x53EA;&#x6709;&#x7B2C;&#x4E00;&#x6B21;&#x4E0A;&#x4F20;&#x9700;&#x8981;&#x5BC6;&#x7801;&#xFF0C;&#x4E4B;&#x540E;&#x4E0D;&#x9700;&#x8981;
+path1=&quot;home/l/&#x684C;&#x9762;/markdown1/gitest/c&quot;
+
+cd $path1
+git checkout main
+git fetch --all
+git reset --hard origin/main
+git pull 
+
+
+gitbook build
+
+git add .
+git commit -m &quot;main&quot;
+git push -u origin main
+
+git checkout pages
+
+git fetch --all
+
+git reset --hard origin/main
+
+git pull origin pages
+
+cat &gt;.gitignore&lt;&lt;EOF
+*.md
+*~
+_book
+.DS_Store
+EOF
+
+
+cp -r _book/* .
+rm -rf *.md
+git add .
+git commit -m &quot;1&quot;
+git push -u --force  origin pages
+
+</code></pre>
+
+<p><img src=".gitbook/assets/image (5" alt="">.png&gt;)</p>
+<h2 id="githubio-&#x914D;&#x7F6E;">github.io &#x914D;&#x7F6E;</h2>
+<p><img src=".gitbook/assets/image (9).png" alt="" data-size="original"></p>
+<p><img src=".gitbook/assets/image (3" alt="">.png&gt;)</p>
+<p><img src=".gitbook/assets/image (1" alt="">.png&gt;)</p>
+<p>&#x5728;action&#x8FD9;&#x91CC;&#x53EF;&#x4EE5;&#x770B;&#x5230;github&#x6B63;&#x5728;&#x5BF9;pages&#x5206;&#x652F;&#x4E0B;&#x7684;&#x9759;&#x6001;&#x9875;&#x9762;&#x8FDB;&#x884C;&#x90E8;&#x7F72;</p>
+<p><img src=".gitbook/assets/image (7" alt="">.png&gt;)</p>
+<p><img src=".gitbook/assets/image (4" alt="">.png&gt;)</p>
+<p>&#x8BBF;&#x95EE;&#x5730;&#x5740;&#xFF1A;<a href="https://lizeju.github.io/c/" target="_blank">https://lizeju.github.io/c/</a></p>
+<p><img src=".gitbook/assets/image (20" alt="">.png&gt;)</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="github-pages-wen-ti.html" class="navigation navigation-prev " aria-label="Previous page: github pages问题">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="zhong-guo.html" class="navigation navigation-next " aria-label="Next page: 中国">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"gitbook发布的流程整理第一版","level":"1.9","depth":1,"next":{"title":"中国","level":"1.10","depth":1,"path":"zhong-guo.md","ref":"zhong-guo.md","articles":[]},"previous":{"title":"github pages问题","level":"1.8","depth":1,"path":"github-pages-wen-ti.md","ref":"github-pages-wen-ti.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"gitbook-fa-bu-de-liu-cheng-zheng-li-di-yi-ban.md","mtime":"2022-12-18T18:37:48.678Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2022-12-18T18:49:19.769Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
