@@ -1,7 +1,7 @@
 # Table of contents
 
 * [README](README.md)
-* [hexo +github pages搭建个人博客](README.md)
+* [hexo +github pages搭建个人博客](<README (1).md>)
 * [markdown读书笔记](markdown-du-shu-bi-ji.md)
 * [科锐逆向课程](ke-rui-ni-xiang-ke-cheng.md)
 * [git](1123.md)
