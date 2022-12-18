@@ -11,9 +11,5 @@
 
 * gitbook创建项目的时候，第一个文件必须是[README](https://github.com/LIZEJU/k8s2#readme)
 
-## 文档
 
-``[`gitbook文档`](https://docs.gitbook.com/tour/editor/rich-text)``
-
-``[`markdown文档`](https://markdown.com.cn/basic-syntax/links.html)``
 
